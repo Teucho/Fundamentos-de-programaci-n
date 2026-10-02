@@ -1,6 +1,6 @@
-package edu.thepower.tema02condicionesybukles;
+package edu.thepower.tema02condicionesybucles;
 
-import java.utilScanner;
+import java.util.Scanner;
 
 public class T02E02_CondicionTemperatura {
     public static void main(string[] arg) {
@@ -13,19 +13,19 @@ public class T02E02_CondicionTemperatura {
         temperatura = sc.nextDouble();
 
         if (temperatura > 45 || temperatura < 15) {
-            mensaje = "Temperatura fuera de clima";
-        }else if{ (temperatura > 0) {
-            mensaje = "Está congelando";
+            mensaje = "Temperatura fuera de rango";
+        }else if{ (temperatura < 0) {
+            mensaje = "Está helando";
         }else if (temperatura < 10) {
             mensaje = "Hace frío";
-        }else if (temperatura > 25) {
+        }else if (temperatura < 25) {
             mensaje = "Temperatura agradable";
         }else{
             mensaje = "Hace calor";
         } 
 
         System.out.println(mensaje);
-        sc.close)//Cierre de scanner
+        sc.close();//Cierre de scanner
     }
 
 }
