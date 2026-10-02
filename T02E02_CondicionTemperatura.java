@@ -5,8 +5,8 @@ import java.utilScanner;
 public class T02E02_CondicionTemperatura {
     public static void main(string[] arg) {
 
-        double temperatura
-        Scanner sc = new scanner(Sistem.in);
+        double temperatura;
+        Scanner sc = new scanner(System.in);
         String mensaje;
 
         System.out.print("Introduzca temperatura (-15º/45º): ");
@@ -14,16 +14,15 @@ public class T02E02_CondicionTemperatura {
 
         if (temperatura > 45 || temperatura < 15) {
             mensaje = "Temperatura fuera de clima";
-        }else if (temperatura > 0) {
-            mensaje = "Está congelando"
-        else if (temperatura < 10) {
+        }else if{ (temperatura > 0) {
+            mensaje = "Está congelando";
+        }else if (temperatura < 10) {
             mensaje = "Hace frío";
         }else if (temperatura > 25) {
             mensaje = "Temperatura agradable";
         }else{
             mensaje = "Hace calor";
-        }{
-            mensaje = " tu puedes crack"; 
+        } 
 
         System.out.println(mensaje);
         sc.close)//Cierre de scanner
