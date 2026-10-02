@@ -22,7 +22,8 @@ public class T02E02_CondicionTemperatura {
             mensaje = "Temperatura agradable";
         }else{
             mensaje = "Hace calor";
-        }
+        }{
+            mensaje = " tu puedes crack"; 
 
         System.out.println(mensaje);
         sc.close)//Cierre de scanner
